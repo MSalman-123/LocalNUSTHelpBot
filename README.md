@@ -60,3 +60,5 @@ streamlit run app.py
 - Built with [LangChain](https://www.langchain.com/), [Ollama](https://ollama.com/), [Streamlit](https://streamlit.io/), [DeepSeek R1 1.5B](https://huggingface.co/deepseek-ai/DeepSeek-V2), and [PyPDF](https://pypdf.readthedocs.io/).
 
 ---
+=======
+# LocalNUSTHelpBot

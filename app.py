@@ -3,7 +3,13 @@ import os
 import time
 from log import log_interaction
 
-st.set_page_config(page_title="NUST HELP BOT", page_icon="nust_logo.png", layout="centered")
+# Configure Streamlit page with professional settings
+st.set_page_config(
+    page_title="NUST Help Bot - Intelligent Assistant",
+    page_icon="nust_logo.png",
+    layout="centered",
+    initial_sidebar_state="collapsed"
+)
 
 st.markdown("""
 <style>
@@ -158,7 +164,7 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 st.markdown("""
 <div style='text-align: center; font-size: 1rem; margin-top: 2em;'>
-    This is an alpha version of this software, Developed at <b>HPC Lab, NUST-SEECS</b><br>
-    <span style='font-size:0.9rem;'><a href='#' style='color:#0066cc;'></a></span>
+    <b>NUST Help Bot v1.0</b> - Production Ready<br>
+    <span style='font-size:0.9rem; color:#074880;'>This is an Alpha version of this software. Developed at <b>HPC Lab, NUST-SEECS</b></span>
 </div>
 """, unsafe_allow_html=True)
